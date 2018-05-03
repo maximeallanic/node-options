@@ -12,7 +12,7 @@
 var _ = require('lodash');
 var process = require('process');
 
-module.exports = require(process.cwd() + '/package.json').config;
+module.exports = require(process.cwd() + '/package.json').config || {};
 module.exports.define = function (key, value) {
     if (_.isString(key) && !_.has(module.exports, key)) {
         if (_.isArray(value))
