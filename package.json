@@ -1,0 +1,22 @@
+{
+  "name": "options",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maximeallanic/node-options.git"
+  },
+  "author": "Maxime Allanic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximeallanic/node-options/issues"
+  },
+  "homepage": "https://github.com/maximeallanic/node-options#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
